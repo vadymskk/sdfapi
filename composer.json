@@ -1,0 +1,22 @@
+{
+    "name": "worksection/sdfapi",
+    "description": "Megaplan API",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Vadym Dorokh",
+            "email": "vadymski@gmail.com",
+            "role": "Distributor"
+        }
+    ],
+    "version": "1.0.0",
+    "require": {
+        "php": ">=7.0.0",
+        "ext-curl": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Worksection\\": "src/"
+        }
+    }
+}
